@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik+Puddles&display=swap');
+
+body {
+   background-color: white;
+   transition: background-color 1s linear;
+   font-family: 'Arial', sans-serif; 
+   margin:0;
+   padding:0;   
+}
+body:hover {
+   background-color: orange;
+}
+
+h1 {
+	font-family: 'Rubik Puddles', cursive;
+	font-size: 4em;
+}
+
+h1.lilita {
+	font-family: 'Lilita One', cursive;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	line-height:1.8em;
+}
+
+img { cursor:pointer; }
+img.hover {
+	cursor:pointer;
+}
+
+#primary_container {
+	max-width:800px;
+	height:auto;
+	margin: 50px auto;
+	text-align:center;
+}
+
+.footer {
+ 	font-size:.8em;
+ 	background-color:#111;
+ 	border-top:1px solid white;
+ 	padding:12px;
+ 	margin:0;
+ 	color:#fff;
+}
+.footer a {
+	color:#ccc;
+}
+.footer a:hover {
+	color:orange;
+}
+.footer a:visited {
+	color:#ccc;
+}
